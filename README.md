@@ -9,33 +9,34 @@ by Yicheng Wu*+, Xiangde Luo+, Zhe Xu, Xiaoqing Guo, Lie Ju, Zongyuan Ge, Wenjun
 <27.02.2024> The paper is accepted by CVPR 2024;
 ```
 ### Introduction
-This repository is for our paper: Diversified and Personalized Multi-rater Medical Image Segmentation. Here, we study the inherent annotation ambiguity problem in medical image segmentation and use two datasets for the model evaluation (the Public [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI) and our inhouse NPC-170 datasets). We use the pre-processed LIDC-IDRI dataset as [MedicalMatting](https://github.com/wangsssky/MedicalMatting/tree/main/dataset) and for the NPC-170 dataset, we will release it in the MMIS-2024 grand challenge of ACM MM 2024. Details will be released soon.
+This repository is for our paper: Diversified and Personalized Multi-rater Medical Image Segmentation. Here, we study the inherent annotation ambiguity problem in medical image segmentation and use two datasets for the model evaluation (the Public [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI) and our in-house NPC-170 datasets). We use the pre-processed LIDC-IDRI dataset as [MedicalMatting](https://github.com/wangsssky/MedicalMatting/tree/main/dataset) and for the NPC-170 dataset, we will release it in the MMIS-2024 grand challenge of ACM MM 2024. Details will be released soon.
 
 ### Requirements
 This repository is based on PyTorch 2.0.1+cu118 and Python 3.11.4; All experiments in our paper were conducted on a single NVIDIA GeForce 3090 GPU.
 
 ### Usage
-1. Clone the repo.;
+1. Clone this repo.;
 ```
 git clone https://github.com/ycwu1997/D-Persona.git
 ```
 2. Put the data in './DPersona/data';
 
-3. Train the model;
+3. First-stage training;
 ```
 cd code
-# e.g., First stage on the LIDC-IDRI dataset
+# e.g., the LIDC-IDRI dataset
 Python train_dp.py --stage 1
-# put the weights DPersona1_LIDC_[fold]_best.pth from ../models/[YOUR_LOCAL_PATH]/ to ./
-# Training in the second stage
+```
+4. Put the first-stage weights "DPersona1_LIDC_[fold_idx]_best.pth" into "./" from "../models/[YOUR_LOCAL_PATH]/";
+5. Second-stage training;
+```
 Python train_dp.py --stage 2
 ```
-
-4. Test the model;
+6. Test the model;
 ```
-# e.g., Evaluate the first stage performance on the LIDC-IDRI dataset
+# e.g., first-stage performance on the LIDC-IDRI dataset
 Python evaluate_dp.py --stage 1 --save_path ../models/[YOUR_LOCAL_PATH] --test_num 50
-# e.g., Evaluate the second stage performance
+# e.g., second-stage performance on the LIDC-IDRI dataset
 Python evaluate_dp.py --stage 2 --save_path ../models/[YOUR_LOCAL_PATH] --test_num 500
 ```
 
