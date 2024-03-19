@@ -51,7 +51,7 @@ If our D-Persona model is useful for your research, please consider citing:
         }
 
 ### Acknowledgements:
-Our code is adapted from [Pionono](https://github.com/arneschmidt/pionono_segmentation), [MedicalMatting](https://github.com/wangsssky/MedicalMatting), [DTC](https://github.com/HiLab-git/DTC), and [Prob. U-Net](https://github.com/stefanknegt/Probabilistic-Unet-Pytorch). Thanks for these authors for their valuable works and hope our model can promote the relevant research as well.
+Our code is adapted from [Pionono](https://github.com/arneschmidt/pionono_segmentation), [MedicalMatting](https://github.com/wangsssky/MedicalMatting), and [Prob. U-Net](https://github.com/stefanknegt/Probabilistic-Unet-Pytorch). Thanks for these authors for their valuable works and hope our model can promote the relevant research as well.
 
 ### Questions
 If any questions, feel free to contact me at 'ycwueli@gmail.com'
