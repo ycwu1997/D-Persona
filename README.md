@@ -7,7 +7,7 @@ by Yicheng Wu*+, Xiangde Luo+, Zhe Xu, Xiaoqing Guo, Lie Ju, Zongyuan Ge, Wenjun
 ```
 ```
 <27.02.2024> The paper is accepted by CVPR 2024;
-
+```
 ### Introduction
 This repository is for our paper: Diversified and Personalized Multi-rater Medical Image Segmentation. We studied the inherent annotation ambiguity problem in medical image segmentation.
 
