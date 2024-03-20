@@ -27,9 +27,9 @@ cd ./D-Persona/code
 # e.g., the LIDC-IDRI dataset
 python train_dp.py --stage 1 --val_num 10 --gpu 0
 ```
-4. Put the first-stage weights into the "./";
+4. Put the first-stage weights into the "../code/";
 ```
-move "DPersona1_LIDC_[IDX]_best.pth" from "../models/[YOUR_LOCAL_PATH]/" to "./"
+cp ../models/[YOUR_MODEL_PATH]/DPersona1_LIDC_[IDX]_best.pth ../code/
 ```
 
 6. Second-stage training;
@@ -39,9 +39,9 @@ python train_dp.py --stage 2 --val_num 100 --gpu 0
 6. Test the model;
 ```
 # e.g., first-stage performance on the LIDC-IDRI dataset
-Python evaluate_dp.py --stage 1 --save_path ../models/[YOUR_LOCAL_PATH] --test_num 50
+Python evaluate_dp.py --stage 1 --save_path ../models/[YOUR_MODEL_PATH] --test_num 50
 # e.g., second-stage performance
-Python evaluate_dp.py --stage 2 --save_path ../models/[YOUR_LOCAL_PATH] --test_num 500
+Python evaluate_dp.py --stage 2 --save_path ../models/[YOUR_MODEL_PATH] --test_num 500
 ```
 
 ### Citation
