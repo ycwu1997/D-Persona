@@ -3,6 +3,9 @@ by Yicheng Wu*+, Xiangde Luo+, Zhe Xu, Xiaoqing Guo, Lie Ju, Zongyuan Ge, Wenjun
 
 ### News
 ```
+<05.04.2024> The paper is selected as a Poster (Highlight) in CVPR 2024, ranking in the top 15%;
+```
+```
 <19.03.2024> We released the codes;
 ```
 ```
