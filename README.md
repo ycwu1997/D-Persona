@@ -59,6 +59,7 @@ If our D-Persona model is useful for your research, please consider citing:
         title={Diversified and Personalized Multi-rater Medical Image Segmentation},
         author={Wu, Yicheng and Luo, Xiangde and Xu, Zhe, and Guo, Xiaoqing and Ju, Lie and Ge, Zongyuan and Liao, Wenjun and Cai, Jianfei},
         booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+        pages={11470-11479},
         year={2024},
         organization={IEEE}
         }
