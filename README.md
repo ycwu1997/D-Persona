@@ -15,7 +15,7 @@ by Yicheng Wu*+, Xiangde Luo+, Zhe Xu, Xiaoqing Guo, Lie Ju, Zongyuan Ge, Wenjun
 
 ![](assets/poster.png)
 
-This repository is for our paper: "[Diversified and Personalized Multi-rater Medical Image Segmentation](http://arxiv.org/abs/2403.13417)", the video introduction can be found at [YouTube](https://www.youtube.com/watch?v=5sFQVk_AkpE) platform.
+This repository is for our paper: "[Diversified and Personalized Multi-rater Medical Image Segmentation](https://openaccess.thecvf.com/content/CVPR2024/html/Wu_Diversified_and_Personalized_Multi-rater_Medical_Image_Segmentation_CVPR_2024_paper.html)", the video introduction can be found at [YouTube](https://www.youtube.com/watch?v=5sFQVk_AkpE) platform.
 
 Here, we study the inherent annotation ambiguity problem in medical image segmentation and use two datasets for the model evaluation (the public [LIDC-IDRI](https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI) and our in-house NPC-170 datasets). We use the pre-processed LIDC-IDRI dataset as [MedicalMatting](https://doi.org/10.1007/978-3-030-87199-4_54). The NPC-170 dataset will be released on the MMIS-2024 grand challenge of ACM MM 2024. Details will be released soon.
 
