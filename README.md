@@ -55,13 +55,13 @@ Python evaluate_dp.py --stage 2 --save_path ../models/[YOUR_MODEL_PATH] --test_n
 ### Citation
 If our D-Persona model is useful for your research, please consider citing:
 
-@inproceedings{wu2024diversified,
-  title={Diversified and Personalized Multi-rater Medical Image Segmentation},
-  author={Wu, Yicheng and Luo, Xiangde and Xu, Zhe and Guo, Xiaoqing and Ju, Lie and Ge, Zongyuan and Liao, Wenjun and Cai, Jianfei},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={11470--11479},
-  year={2024}
-}
+        @inproceedings{wu2024diversified,
+          title={Diversified and Personalized Multi-rater Medical Image Segmentation},
+          author={Wu, Yicheng and Luo, Xiangde and Xu, Zhe and Guo, Xiaoqing and Ju, Lie and Ge, Zongyuan and Liao, Wenjun and Cai, Jianfei},
+          booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+          pages={11470--11479},
+          year={2024}
+        }
 
 ### Acknowledgements:
 Our code is adapted from [Pionono](https://github.com/arneschmidt/pionono_segmentation), [MedicalMatting](https://github.com/wangsssky/MedicalMatting), and [Prob. U-Net](https://github.com/stefanknegt/Probabilistic-Unet-Pytorch). Thanks for these authors for their valuable works and hope our model can promote the relevant research as well.
