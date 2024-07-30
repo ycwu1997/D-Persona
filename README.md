@@ -3,7 +3,7 @@ by Yicheng Wu*+, Xiangde Luo+, Zhe Xu, Xiaoqing Guo, Lie Ju, Zongyuan Ge, Wenjun
 
 ### News
 ```
-<18.06.2024> We release the NPC170 dataset in the MMIS-2024 Grand Challenge;
+<18.06.2024> We release the NPC170 dataset on the MMIS-2024 Grand Challenge;
 ```
 ```
 <04.05.2024> The paper is selected as a Poster (Highlight, top 15%) in CVPR 2024;
