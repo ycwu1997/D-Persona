@@ -340,7 +340,7 @@ class DPersona(nn.Module):
         self.kl = torch.mean(self.kl_divergence(analytic=analytic_kl, calculate_posterior=False))
 
         #Here we use the posterior sample sampled above
-        self.re_post = self.prior_sampling(sample_num=1, training=True)[0]
+        self.re_post = self.posterior_sampling(sample_num=1, training=True)[0]
 
         #Here we use the prior sample sampled above
         self.re_prior = torch.cat(self.prior_sampling(sample_num=args.prior_sample_num, training=True), dim=1)
