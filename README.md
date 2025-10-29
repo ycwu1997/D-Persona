@@ -68,9 +68,18 @@ If our D-Persona model is useful for your research, please consider citing:
             year      = {2024},
             pages     = {11470-11479}
         }
+If you want to use the NPC170 dataset, please consider citing:
 
-### Acknowledgements:
-Our code is adapted from [Pionono](https://github.com/arneschmidt/pionono_segmentation), [MedicalMatting](https://github.com/wangsssky/MedicalMatting), and [Prob. U-Net](https://github.com/stefanknegt/Probabilistic-Unet-Pytorch). Thanks for these authors for their valuable works and hope our model can promote the relevant research as well.
+        @inproceedings{wu2024dataset,
+          title={Dataset, challenge, and evaluation for tumor segmentation variability},
+          author={Wu, Yicheng and Xie, Yutong and Luo, Xiangde and Wu, Qi and Cai, Jianfei},
+          booktitle={Proceedings of the 32nd ACM International Conference on Multimedia},
+          pages={11302--11303},
+          year={2024}
+        }
+
+### Acknowledgments:
+Our code is adapted from [Pionono](https://github.com/arneschmidt/pionono_segmentation), [MedicalMatting](https://github.com/wangsssky/MedicalMatting), and [Prob. U-Net](https://github.com/stefanknegt/Probabilistic-Unet-Pytorch). Thanks to these authors for their valuable works, and hope our model can promote the relevant research as well.
 
 ### Questions
 If any questions, feel free to contact me at 'ycwueli@gmail.com'
