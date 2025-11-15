@@ -95,7 +95,7 @@ class DatasetSpliter():
 
 		self.splits = []
 
-		if opt.DATASET == 'lidc':
+		if opt.DATASET == 'LIDC':
 			uid_dict = {}
 			for idx, uid in enumerate(self.train_dataset.series_uid):
 				pid = uid.split('_')[0]
