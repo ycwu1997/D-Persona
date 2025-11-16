@@ -68,7 +68,7 @@ If our D-Persona model is useful for your research, please consider citing:
             year      = {2024},
             pages     = {11470-11479}
         }
-If you want to use the NPC170 dataset, please consider citing:
+If you want to use the NPC-170 dataset, please consider citing:
 
         @inproceedings{wu2024dataset,
           title={Dataset, challenge, and evaluation for tumor segmentation variability},
